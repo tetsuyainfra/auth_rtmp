@@ -1,0 +1,16 @@
+{
+	"name": "auth_rtmp",
+	"version": "0.0.1",
+	"description": "AuthN for nginx-rtmp-module at on_publish",
+	"main": "index.js",
+	"repository": "http://github.com/tetsuyainfra/auth_rtmp.git",
+	"author": "tetsuyainfra",
+	"license": "MIT",
+	"private": null,
+	"dependencies": {
+		"express": "^4.17.1"
+	},
+	"scripts": {
+		"start": "node index.js"
+	}
+}
